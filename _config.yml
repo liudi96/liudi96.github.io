@@ -2,8 +2,8 @@
   title: My Blog
   SEOTitle: 我的博客 | My Blog
   header-img: img/post-bg-desk.jpg
-  email: 暂无
-  description: "写一句你想写的话"
+  email: tongrui996@gmail.com
+  description: "记录所思、所为"
   keyword: "我的博客"
   url: "http://liudi96.github.io"          # name改成你的ID
   baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -12,7 +12,7 @@
   # Sidebar settings
   sidebar: true                           # whether or not using Sidebar.
   sidebar-about-description: "苟利国家生死以，岂因祸福避趋之~"
-  sidebar-avatar: /img/avatar_binggan.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   # SNS settings
   RSS: false
