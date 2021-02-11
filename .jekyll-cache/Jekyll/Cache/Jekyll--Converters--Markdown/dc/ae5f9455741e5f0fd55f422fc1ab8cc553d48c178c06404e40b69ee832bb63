@@ -1,8 +1,10 @@
-I"�<h1 id="jekyll-中文markdown支持">Jekyll 中文markdown支持</h1>
+I"�<h1 id="jekyll-中文markdown支持">Jekyll 中文markdown支持</h1>
 <blockquote>
   <p>我在使用Jekyll发贴文时，发生了build markdown文件时出现无效UTF-8的情况。</p>
 </blockquote>
 
 <p>最开始我的贴文是用VS studio创建的md格式的md格式。 在我放弃创建md文件，
 转而复制defualt贴文进行修改后这个问题得以解决，所以估计时文件格式的问题。</p>
+
+<p>使用vs code创建md文件，编码格式为UTF8-BOM后问题解决</p>
 :ET
