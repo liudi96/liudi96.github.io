@@ -16,11 +16,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="写一句你想写的话">
+    <meta name="description" content="记录所思、所为">
     <meta name="keywords"  content="我的博客">
-    <meta name="theme-color" content="#000000">
+    <meta name="theme-color" content="">
     
-    <title>This is title - 我的博客 | My Blog</title>
+    <title>This is first post - 我的博客 | My Blog</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -32,7 +32,7 @@
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2019/04/21/This-is-Title/">
+    <link rel="canonical" href="http://liudi96.github.io/2019/04/21/test.html">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -94,11 +94,11 @@
                     </li>
                     
                     <li>
-                        <a href="/about/">About</a>
+                        <a href="/about.html">About</a>
                     </li>
                     
                     <li>
-                        <a href="/tags/">Tags</a>
+                        <a href="/tags.html">Tags</a>
                     </li>
                     
                 </ul>
@@ -186,10 +186,10 @@
                         <a class="tag" href="/tags/#Tylor" title="Tylor">Tylor</a>
                         
                     </div>
-                    <h1>This is title</h1>
+                    <h1>This is first post</h1>
                     
                     
-                    <h2 class="subheading">This is subtitle</h2>
+                    <h2 class="subheading">This is test</h2>
                     
                     <span class="meta">Posted by Wang Pei on April 21, 2019</span>
                 </div>
@@ -209,9 +209,9 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-				<h1 id="title">Title</h1>
+				<h1 id="myfirst-post">Myfirst post</h1>
 
-<p>content</p>
+<p>my first post</p>
 
 
                 <hr style="visibility: hidden;">
@@ -219,37 +219,24 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2019/03/29/Install-TensorFlow-GPU-by-Anaconda(conda-install-tensorflow-gpu)/" data-toggle="tooltip" data-placement="top" title="Install TensorFlow-GPU by Anaconda (conda install tensorflow-gpu)">
+                        <a href="/2019/03/29/Install-TensorFlow-GPU-by-Anaconda(conda-install-tensorflow-gpu).html" data-toggle="tooltip" data-placement="top" title="Install TensorFlow-GPU by Anaconda (conda install tensorflow-gpu)">
                         Previous<br>
                         <span>Install TensorFlow-GPU by Anaconda (conda install tensorflow-gpu)</span>
                         </a>
                     </li>
                     
                     
+                    <li class="next">
+                        <a href="/2019/04/21/This-is-Title.html" data-toggle="tooltip" data-placement="top" title="This is title">
+                        Next<br>
+                        <span>This is title</span>
+                        </a>
+                    </li>
+                    
                 </ul>
 
 
                 <!--Gitalk评论start  -->
-                
-                <!-- 引入Gitalk评论插件  -->
-                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-                <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-                <div id="gitalk-container"></div>
-                <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
-                <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
-                <script src="/js/md5.min.js"></script>
-                <script type="text/javascript">
-                    var gitalk = new Gitalk({
-                    clientID: '',
-                    clientSecret: '',
-                    repo: 'name.github.io',
-                    owner: '',
-                    admin: [''],
-                    distractionFreeMode: true,
-                    id: md5(location.pathname),
-                    });
-                    gitalk.render('gitalk-container');
-                </script>
                 
                 <!-- Gitalk end -->
 
@@ -282,40 +269,8 @@
 
                 <!-- Featured Tags -->
                 
-                <section>
-                    <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
-                    <div class="tags">
-        				
-                            
-        				
-                            
-        				
-                            
-        				
-                            
-        				
-                            
-        				
-        			</div>
-                </section>
-                
 
                 <!-- Friends Blog -->
-                
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
-                    
-                        <li><a href="https://wangpei.ink">WP</a></li>
-                    
-                        <li><a href="http://www.jianshu.com/u/e71990ada2fd">简书·BY</a></li>
-                    
-                        <li><a href="https://apple.com">Apple</a></li>
-                    
-                        <li><a href="https://developer.apple.com/">Apple Developer</a></li>
-                    
-                </ul>
                 
             </div>
         </div>
@@ -326,41 +281,6 @@
 
 
 
-
-<!-- async load function -->
-<script>
-    function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
-</script>
-<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
-<script>
-    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
-        // BY Fix:去除标题前的‘#’ issues:<https://github.com/qiubaiying/qiubaiying.github.io/issues/137>
-        // anchors.options = {
-        //   visible: 'always',
-        //   placement: 'right',
-        //   icon: '#'
-        // };
-        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
-    })
-</script>
-<style>
-    /* place left on bigger screen */
-    @media all and (min-width: 800px) {
-        .anchorjs-link{
-            position: absolute;
-            left: -0.75em;
-            font-size: 1.1em;
-            margin-top : -0.1em;
-        }
-    }
-</style>
 
 
     <!-- Footer -->
@@ -420,9 +340,9 @@
                     
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; My Blog 2019
+                    Copyright &copy; My Blog 2021
                     <br>
-                    Theme on <a href="https://github.com/name/name.github.io.git">GitHub</a> |
+                    Theme on <a href="https://github.com/liudi96/liudi96.github.io.git">GitHub</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="100px" height="20px"
@@ -444,16 +364,6 @@
 <script src="/js/hux-blog.min.js "></script>
 
 <!-- Service Worker -->
-
-<script type="text/javascript">
-    if(navigator.serviceWorker){
-        // For security reasons, a service worker can only control the pages that are in the same directory level or below it. That's why we put sw.js at ROOT level.
-        navigator.serviceWorker
-            .register('/sw.js')
-            .then((registration) => {console.log('Service Worker Registered. ', registration)})
-            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
-    }
-</script>
 
 
 
