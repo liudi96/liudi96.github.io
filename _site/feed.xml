@@ -5,9 +5,30 @@
     <description>记录所思、所为</description>
     <link>http://liudi96.github.io/</link>
     <atom:link href="http://liudi96.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Feb 2021 15:11:35 +0800</pubDate>
-    <lastBuildDate>Thu, 11 Feb 2021 15:11:35 +0800</lastBuildDate>
+    <pubDate>Thu, 11 Feb 2021 15:24:00 +0800</pubDate>
+    <lastBuildDate>Thu, 11 Feb 2021 15:24:00 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Jekyll 中文markdown支持</title>
+        <description>&lt;h1 id=&quot;jekyll-中文markdown支持&quot;&gt;Jekyll 中文markdown支持&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;我在使用Jekyll发贴文时，发生了build markdown文件时出现无效UTF-8的情况。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;最开始我的贴文是用VS studio创建的md格式的md格式。 在我放弃创建md文件，
+转而复制defualt贴文进行修改后这个问题得以解决，所以估计时文件格式的问题。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Feb 2021 00:00:00 +0800</pubDate>
+        <link>http://liudi96.github.io/2021/02/11/mytest.html</link>
+        <guid isPermaLink="true">http://liudi96.github.io/2021/02/11/mytest.html</guid>
+        
+        <category>杂货店</category>
+        
+        <category>Jekyll</category>
+        
+        
+      </item>
     
       <item>
         <title>This is title</title>
@@ -20,26 +41,6 @@
         <guid isPermaLink="true">http://liudi96.github.io/2019/04/21/This-is-Title.html</guid>
         
         <category>Tylor</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>test</title>
-        <description>&lt;h1 id=&quot;nihao&quot;&gt;nihao&lt;/h1&gt;
-&lt;p&gt;年后呀&lt;/p&gt;
-</description>
-        <pubDate>Fri, 29 Mar 2019 00:00:00 +0800</pubDate>
-        <link>http://liudi96.github.io/2019/03/29/mytest.html</link>
-        <guid isPermaLink="true">http://liudi96.github.io/2019/03/29/mytest.html</guid>
-        
-        <category>ubuntu</category>
-        
-        <category>TensorFlow</category>
-        
-        <category>深度学习</category>
-        
-        <category>CUDA</category>
         
         
       </item>
