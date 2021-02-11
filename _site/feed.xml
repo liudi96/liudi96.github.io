@@ -5,8 +5,8 @@
     <description>记录所思、所为</description>
     <link>http://liudi96.github.io/</link>
     <atom:link href="http://liudi96.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Feb 2021 11:31:51 +0800</pubDate>
-    <lastBuildDate>Thu, 11 Feb 2021 11:31:51 +0800</lastBuildDate>
+    <pubDate>Thu, 11 Feb 2021 15:11:35 +0800</pubDate>
+    <lastBuildDate>Thu, 11 Feb 2021 15:11:35 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -25,16 +25,21 @@
       </item>
     
       <item>
-        <title>This is a test</title>
-        <description>&lt;h1 id=&quot;title&quot;&gt;Title&lt;/h1&gt;
-
-&lt;p&gt;test&lt;/p&gt;
+        <title>test</title>
+        <description>&lt;h1 id=&quot;nihao&quot;&gt;nihao&lt;/h1&gt;
+&lt;p&gt;年后呀&lt;/p&gt;
 </description>
-        <pubDate>Sun, 21 Apr 2019 00:00:00 +0800</pubDate>
-        <link>http://liudi96.github.io/2019/04/21/test.html</link>
-        <guid isPermaLink="true">http://liudi96.github.io/2019/04/21/test.html</guid>
+        <pubDate>Fri, 29 Mar 2019 00:00:00 +0800</pubDate>
+        <link>http://liudi96.github.io/2019/03/29/mytest.html</link>
+        <guid isPermaLink="true">http://liudi96.github.io/2019/03/29/mytest.html</guid>
         
-        <category>test</category>
+        <category>ubuntu</category>
+        
+        <category>TensorFlow</category>
+        
+        <category>深度学习</category>
+        
+        <category>CUDA</category>
         
         
       </item>
