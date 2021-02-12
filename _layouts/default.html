@@ -1,32 +1,23 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-        <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({
-                tex2jax: {
-                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-                inlineMath: [['$','$']]
-                }
-            });
-        </script>
-    </head>
-{% include head.html %}
+<html lang="zh-hans">
 
-<!-- hack iOS CSS :active style -->
-<body ontouchstart="">
+  {% include head.html %}
 
-    {% include nav.html %}
+  <body>
 
-    {{ content }}
+    <main class="content container">
+      {{content}}
+    </main>
 
-    {% include footer.html %}
+    {% include sidebar.html %}
+    <script src="{{site.baseurl}}/public/js/drawer.min.js"></script>
+    <!-- <script src="{{site.baseurl}}/public/js/instantclick.min.js" data-no-instant></script> -->
+    <!-- <script data-no-instant>InstantClick.init();</script> -->
+    <script src="{{site.baseurl}}/public/js/hyde.js"></script>
 
-
-<!-- Image to hack wechat -->
-<img src="/img/apple-touch-icon.png" width="0" height="0" />
-<!-- Migrate from head to bottom, no longer block render and still work -->
-
-</body>
-
+  </body>
 </html>
