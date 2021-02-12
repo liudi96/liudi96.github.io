@@ -10,7 +10,7 @@
       {% if page.tag %} {{site.data.tags[page.tag].name}} {% else %} {{page.title}} {% endif %} - {{site.title}}
     {% endif %}
   </title>
-
+  {% seo %}
   <!-- CSS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Source+Code+Pro">
   <link rel="stylesheet" href="{{site.baseurl}}/public/css/styles.css">
