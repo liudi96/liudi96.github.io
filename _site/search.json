@@ -9,6 +9,14 @@
     } ,
   
     {
+      "title"    : "我帅我快乐",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/post/%E5%B8%85%E9%80%BC%E7%9A%84%E5%86%92%E9%99%A9%E4%B9%8B%E6%97%85.html",
+      "date"     : "2021-02-11 00:00:00 +0800"
+    } ,
+  
+    {
       "title"    : "谁是大帅哥",
       "category" : "",
       "tags"     : "jekyll",
