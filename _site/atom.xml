@@ -4,13 +4,22 @@
  <title>Jason的博客</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2021-02-12T20:07:24+08:00</updated>
+ <updated>2021-02-13T11:50:38+08:00</updated>
  <id></id>
  <author>
    <name>刘的</name>
    <email>tongrui996@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>图片</title>
+   <link href="/post/%E5%B0%9D%E8%AF%95%E5%8F%91%E8%A1%A8%E5%9B%BE%E7%89%87.html"/>
+   <updated>2021-02-13T00:00:00+08:00</updated>
+   <id>/post/尝试发表图片</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/02/13/Hst4oZdeCqlrwBm.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>芜湖~</title>

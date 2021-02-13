@@ -3,9 +3,9 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"public/css/poole.scss",
-		"public/css/hyde.scss",
-		"public/css/highlight.scss"
+		"../public/css/poole.scss",
+		"../public/css/hyde.scss",
+		"../public/css/highlight.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\r\n// Imports sass/scss files\r\n\r\n@import \"poole\";\r\n@import \"hyde\";\r\n@import \"highlight\";\r\n",
